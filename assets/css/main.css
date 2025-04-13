@@ -459,6 +459,63 @@ h6 {
   }
 }
 
+@media (max-width: 768px) {
+  /* Stack topbar content on small screens */
+  .topbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .topbar .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+
+  .topbar .contact-info i {
+    margin-bottom: 5px;
+  }
+
+  /* Logo and Site Title sizing */
+  .branding .logo img {
+    height: 40px;
+    width: auto;
+  }
+
+  .branding .sitename {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+  }
+
+  /* Branding spacing */
+  .branding .container {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  /* Center nav links in menu when open */
+  .navmenu ul {
+    padding: 10px 0;
+  }
+
+  .navmenu ul li {
+    margin-bottom: 8px;
+  }
+
+  .navmenu a {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .mobile-nav-toggle {
+    font-size: 26px;
+    margin-left: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
